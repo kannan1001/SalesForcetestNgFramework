@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Automation">
+	
+	<parameter name="validusername" value="geethu@company.com"></parameter>
+	<parameter name="validpassword" value="salesForce1!"></parameter>
+	<parameter name="invalidusername" value="123"></parameter>
+	<parameter name="invalidusername1" value="notuser@company.com"></parameter>
+	<parameter name="invalidpassword" value="1234"></parameter>
+
+	<test name = "SFDC Login">
+		
+		<classes>
+			<class name="com.testng.testcases.logintest"/>
+			<class name="com.testng.testcases.usermenutest"/>
+		
+		</classes>
+		
+	</test>
+</suite>

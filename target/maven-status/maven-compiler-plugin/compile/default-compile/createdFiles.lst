@@ -1,0 +1,6 @@
+com/testng/utilities/ExcelFileReader.class
+com/testng/log/Log.class
+com/testng/base/basepage.class
+com/testng/utilities/ScreenshotUtilities.class
+com/testng/base/basetest.class
+com/testng/utilities/PropertiesReader.class
