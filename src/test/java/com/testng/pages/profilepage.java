@@ -69,8 +69,6 @@ public class profilepage extends basepage{
 	@FindBy(xpath="//input[@class = 'btn saveButton']")
 	WebElement cropsavebutton;
 	
-
-	
 	
 	public void clickoncontactEditButton() {
 		contactEditButton.click();

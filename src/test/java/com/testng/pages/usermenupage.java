@@ -23,6 +23,9 @@ public class usermenupage extends basepage{
 	@FindBy(xpath="//a[@title='Logout']")
 	WebElement Logoutbutton;
 	
+	@FindBy(xpath="//a[@title='My Settings']")
+	WebElement MySettings;
+	
 	public void clickonuserMenuButton() {
 		waitforelement(userMenuButton);
 		userMenuButton.click();
@@ -33,5 +36,9 @@ public class usermenupage extends basepage{
 	}
 	public void clickonMyProfile() {
 		MyProfile.click();
+	}
+	
+	public void clickonMySettings() {
+		MySettings.click();
 	}
 }
