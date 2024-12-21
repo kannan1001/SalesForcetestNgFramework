@@ -4,6 +4,7 @@
 
 <suite name="Automation">
 	
+	
 	<parameter name="validusername" value="geethu@company.com"></parameter>
 	<parameter name="validpassword" value="salesForce1!"></parameter>
 	<parameter name="invalidusername" value="123"></parameter>
@@ -13,8 +14,8 @@
 	<test name = "SFDC Login">
 		
 		<classes>
+			
 			<class name="com.testng.testcases.logintest"/>
-			<class name="com.testng.testcases.usermenutest"/>
 		
 		</classes>
 		

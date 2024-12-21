@@ -1,6 +1,9 @@
-/Users/geerthanakannan/eclipse-workspace/salesforcetestngframework/src/test/java/com/testng/testcases/usermenutest.java
-/Users/geerthanakannan/eclipse-workspace/salesforcetestngframework/src/test/java/com/testng/pages/loginpage.java
-/Users/geerthanakannan/eclipse-workspace/salesforcetestngframework/src/test/java/com/testng/pages/profilepage.java
-/Users/geerthanakannan/eclipse-workspace/salesforcetestngframework/src/test/java/com/testng/testcases/logintest.java
+/Users/geerthanakannan/eclipse-workspace/salesforcetestngframework/src/test/java/com/testng/pages/accountspage.java
 /Users/geerthanakannan/eclipse-workspace/salesforcetestngframework/src/test/java/com/testng/pages/forgotpasswordpage.java
+/Users/geerthanakannan/eclipse-workspace/salesforcetestngframework/src/test/java/com/testng/pages/loginpage.java
+/Users/geerthanakannan/eclipse-workspace/salesforcetestngframework/src/test/java/com/testng/pages/mysettingspage.java
+/Users/geerthanakannan/eclipse-workspace/salesforcetestngframework/src/test/java/com/testng/pages/profilepage.java
 /Users/geerthanakannan/eclipse-workspace/salesforcetestngframework/src/test/java/com/testng/pages/usermenupage.java
+/Users/geerthanakannan/eclipse-workspace/salesforcetestngframework/src/test/java/com/testng/testcases/CreateAccounttest.java
+/Users/geerthanakannan/eclipse-workspace/salesforcetestngframework/src/test/java/com/testng/testcases/logintest.java
+/Users/geerthanakannan/eclipse-workspace/salesforcetestngframework/src/test/java/com/testng/testcases/usermenutest.java

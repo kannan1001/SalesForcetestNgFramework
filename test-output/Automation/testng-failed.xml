@@ -6,15 +6,12 @@
   <parameter name="validusername" value="geethu@company.com"/>
   <parameter name="invalidusername1" value="notuser@company.com"/>
   <parameter name="invalidpassword" value="1234"/>
-  <listeners>
-    <listener class-name="com.testng.listners.TestListener"/>
-  </listeners>
   <test thread-count="5" name="SFDC Login(failed)">
     <classes>
       <class name="com.testng.testcases.usermenutest">
         <methods>
           <include name="launchapplication"/>
-          <include name="testcase_6"/>
+          <include name="testcase_7"/>
           <include name="teardown"/>
         </methods>
       </class> <!-- com.testng.testcases.usermenutest -->

@@ -19,7 +19,7 @@ import com.testng.utilities.ScreenshotUtilities;
 
 public class logintest extends basetest{
 
-	WebDriver driver;
+	
 	loginpage login;
 	usermenupage userobj;
 	forgotpasswordpage forgotobj;
@@ -83,7 +83,7 @@ public class logintest extends basetest{
 	
 	
 	@AfterMethod
-	public void teardown() {
+	public void teardown() throws InterruptedException {
 	//	scrShot.takescreenshot(driver);
 		Log.endTestCase("Testcase Ended");
 		closedriver();

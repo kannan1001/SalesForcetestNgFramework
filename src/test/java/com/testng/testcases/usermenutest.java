@@ -12,14 +12,16 @@ import com.testng.base.basetest;
 import com.testng.pages.loginpage;
 import com.testng.pages.mysettingspage;
 import com.testng.pages.usermenupage;
+import com.testng.utilities.ScreenshotUtilities;
 import com.testng.pages.profilepage;
 public class usermenutest extends basetest{
 	
-	WebDriver driver;
+	
 	loginpage login;
 	usermenupage user;
 	profilepage propage;
 	mysettingspage mysetting;
+	ScreenshotUtilities scrShot;
 	@BeforeMethod
 	public void launchapplication() throws IOException {
 		driver = getdriver();
@@ -27,6 +29,8 @@ public class usermenutest extends basetest{
 		user = new usermenupage(driver);
 		propage = new profilepage(driver);
 		mysetting = new mysettingspage(driver);
+		scrShot = new ScreenshotUtilities();
+		
 	}
 	@Test
 	@Parameters({"validusername","validpassword"})
@@ -103,12 +107,30 @@ public class usermenutest extends basetest{
 		mysetting.clickonActivityReminders();
 	}
 	
+	@Test
+	public void testcase_8() throws InterruptedException {
+		login.enterintousername("geethu@company.com");
+		login.enterintopassword("salesForce1!");
+		login.clickonLoginButton();
+		user.clickonuserMenuButton();
+		user.clickonDeveloperConsoleAndClose();
+	}
 	
+	
+	@Test
+	public void testcase_9() {
+		login.enterintousername("geethu@company.com");
+		login.enterintopassword("salesForce1!");
+		login.clickonLoginButton();
+		user.clickonuserMenuButton();
+		user.clickonlogout();
+	}
 	
 	
 	
 	@AfterMethod
-	public void teardown() {
+	public void teardown() throws InterruptedException {
+		scrShot.takescreenshot(driver);
 		closedriver();
 	}
 }

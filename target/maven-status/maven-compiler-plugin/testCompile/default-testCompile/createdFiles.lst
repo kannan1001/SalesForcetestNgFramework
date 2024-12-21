@@ -1,6 +1,9 @@
 com/testng/pages/loginpage.class
 com/testng/testcases/logintest.class
-com/testng/pages/usermenupage.class
 com/testng/pages/forgotpasswordpage.class
 com/testng/pages/profilepage.class
+com/testng/pages/usermenupage.class
+com/testng/pages/mysettingspage.class
 com/testng/testcases/usermenutest.class
+com/testng/testcases/CreateAccounttest.class
+com/testng/pages/accountspage.class

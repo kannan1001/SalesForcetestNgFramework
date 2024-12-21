@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="4" total="5" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-15T20:11:28 PST" name="Default suite" finished-at="2024-12-15T20:11:50 PST" duration-ms="21908">
+  <suite started-at="2024-12-20T23:29:50 PST" name="Default suite" finished-at="2024-12-20T23:30:10 PST" duration-ms="20257">
     <groups>
     </groups>
-    <test started-at="2024-12-15T20:11:28 PST" name="Default test" finished-at="2024-12-15T20:11:50 PST" duration-ms="21908">
-      <class name="com.testng.testcases.usermenutest">
-        <test-method is-config="true" signature="launchapplication()[pri:0, instance:com.testng.testcases.usermenutest@7e7be63f]" started-at="2024-12-15T20:11:28 PST" name="launchapplication" finished-at="2024-12-15T20:11:32 PST" duration-ms="3636" status="PASS">
+    <test started-at="2024-12-20T23:29:50 PST" name="Default test" finished-at="2024-12-20T23:30:10 PST" duration-ms="20257">
+      <class name="com.testng.testcases.CreateAccounttest">
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:com.testng.testcases.CreateAccounttest@5dd6264]" started-at="2024-12-20T23:29:50 PST" name="launchapplication" finished-at="2024-12-20T23:29:54 PST" duration-ms="3704" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchapplication -->
-        <test-method signature="testcase_7()[pri:0, instance:com.testng.testcases.usermenutest@7e7be63f]" started-at="2024-12-15T20:11:32 PST" name="testcase_7" finished-at="2024-12-15T20:11:50 PST" duration-ms="18093" status="PASS">
+        <test-method signature="testcase_14()[pri:0, instance:com.testng.testcases.CreateAccounttest@5dd6264]" started-at="2024-12-20T23:29:54 PST" name="testcase_14" finished-at="2024-12-20T23:30:07 PST" duration-ms="13379" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testcase_7 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.testcases.usermenutest@7e7be63f]" started-at="2024-12-15T20:11:50 PST" name="teardown" finished-at="2024-12-15T20:11:50 PST" duration-ms="132" status="PASS">
+        </test-method> <!-- testcase_14 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.testcases.CreateAccounttest@5dd6264]" started-at="2024-12-20T23:30:07 PST" name="teardown" finished-at="2024-12-20T23:30:10 PST" duration-ms="3130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.testng.testcases.usermenutest -->
+      </class> <!-- com.testng.testcases.CreateAccounttest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

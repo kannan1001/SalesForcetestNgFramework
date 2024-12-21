@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-14T09:16:56 PST" name="Automation" finished-at="2024-12-14T09:17:59 PST" duration-ms="63299">
+  <suite started-at="2024-12-18T11:06:09 PST" name="Automation" finished-at="2024-12-18T11:06:49 PST" duration-ms="39243">
     <groups>
     </groups>
-    <test started-at="2024-12-14T09:16:56 PST" name="SFDC Login" finished-at="2024-12-14T09:17:59 PST" duration-ms="63299">
+    <test started-at="2024-12-18T11:06:09 PST" name="SFDC Login" finished-at="2024-12-18T11:06:49 PST" duration-ms="39243">
       <class name="com.testng.testcases.logintest">
-        <test-method is-config="true" signature="launchapplication()[pri:0, instance:com.testng.testcases.logintest@419c5f1a]" started-at="2024-12-14T09:16:56 PST" name="launchapplication" finished-at="2024-12-14T09:17:01 PST" duration-ms="4722" status="PASS">
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:com.testng.testcases.logintest@2bbf180e]" started-at="2024-12-18T11:06:09 PST" name="launchapplication" finished-at="2024-12-18T11:06:14 PST" duration-ms="4133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchapplication -->
-        <test-method signature="testcase_4a()[pri:0, instance:com.testng.testcases.logintest@419c5f1a]" started-at="2024-12-14T09:17:01 PST" name="testcase_4a" finished-at="2024-12-14T09:17:02 PST" duration-ms="1331" status="PASS">
+        <test-method signature="testcase_4a()[pri:0, instance:com.testng.testcases.logintest@2bbf180e]" started-at="2024-12-18T11:06:14 PST" name="testcase_4a" finished-at="2024-12-18T11:06:14 PST" duration-ms="968" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase_4a -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.testcases.logintest@419c5f1a]" started-at="2024-12-14T09:17:02 PST" name="teardown" finished-at="2024-12-14T09:17:02 PST" duration-ms="157" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.testcases.logintest@2bbf180e]" started-at="2024-12-18T11:06:14 PST" name="teardown" finished-at="2024-12-18T11:06:18 PST" duration-ms="3133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="launchapplication()[pri:0, instance:com.testng.testcases.logintest@419c5f1a]" started-at="2024-12-14T09:17:02 PST" name="launchapplication" finished-at="2024-12-14T09:17:05 PST" duration-ms="2952" status="PASS">
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:com.testng.testcases.logintest@2bbf180e]" started-at="2024-12-18T11:06:18 PST" name="launchapplication" finished-at="2024-12-18T11:06:21 PST" duration-ms="3655" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchapplication -->
-        <test-method signature="testcase_1(java.lang.String)[pri:1, instance:com.testng.testcases.logintest@419c5f1a]" started-at="2024-12-14T09:17:05 PST" name="testcase_1" finished-at="2024-12-14T09:17:06 PST" duration-ms="931" status="PASS">
+        <test-method signature="testcase_1(java.lang.String)[pri:1, instance:com.testng.testcases.logintest@2bbf180e]" started-at="2024-12-18T11:06:21 PST" name="testcase_1" finished-at="2024-12-18T11:06:22 PST" duration-ms="637" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,15 +34,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase_1 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.testcases.logintest@419c5f1a]" started-at="2024-12-14T09:17:06 PST" name="teardown" finished-at="2024-12-14T09:17:06 PST" duration-ms="145" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.testcases.logintest@2bbf180e]" started-at="2024-12-18T11:06:22 PST" name="teardown" finished-at="2024-12-18T11:06:25 PST" duration-ms="3135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="launchapplication()[pri:0, instance:com.testng.testcases.logintest@419c5f1a]" started-at="2024-12-14T09:17:06 PST" name="launchapplication" finished-at="2024-12-14T09:17:09 PST" duration-ms="3059" status="PASS">
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:com.testng.testcases.logintest@2bbf180e]" started-at="2024-12-18T11:06:25 PST" name="launchapplication" finished-at="2024-12-18T11:06:28 PST" duration-ms="2568" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchapplication -->
-        <test-method signature="testcase_2(java.lang.String,java.lang.String)[pri:2, instance:com.testng.testcases.logintest@419c5f1a]" started-at="2024-12-14T09:17:09 PST" name="testcase_2" finished-at="2024-12-14T09:17:14 PST" duration-ms="4267" status="PASS">
+        <test-method signature="testcase_2(java.lang.String,java.lang.String)[pri:2, instance:com.testng.testcases.logintest@2bbf180e]" started-at="2024-12-18T11:06:28 PST" name="testcase_2" finished-at="2024-12-18T11:06:30 PST" duration-ms="2353" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -58,15 +58,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase_2 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.testcases.logintest@419c5f1a]" started-at="2024-12-14T09:17:14 PST" name="teardown" finished-at="2024-12-14T09:17:14 PST" duration-ms="195" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.testcases.logintest@2bbf180e]" started-at="2024-12-18T11:06:30 PST" name="teardown" finished-at="2024-12-18T11:06:33 PST" duration-ms="3130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="launchapplication()[pri:0, instance:com.testng.testcases.logintest@419c5f1a]" started-at="2024-12-14T09:17:14 PST" name="launchapplication" finished-at="2024-12-14T09:17:17 PST" duration-ms="2853" status="PASS">
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:com.testng.testcases.logintest@2bbf180e]" started-at="2024-12-18T11:06:33 PST" name="launchapplication" finished-at="2024-12-18T11:06:36 PST" duration-ms="2597" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchapplication -->
-        <test-method signature="testcase_3(java.lang.String,java.lang.String)[pri:3, instance:com.testng.testcases.logintest@419c5f1a]" started-at="2024-12-14T09:17:17 PST" name="testcase_3" finished-at="2024-12-14T09:17:24 PST" duration-ms="7063" status="PASS">
+        <test-method signature="testcase_3(java.lang.String,java.lang.String)[pri:3, instance:com.testng.testcases.logintest@2bbf180e]" started-at="2024-12-18T11:06:36 PST" name="testcase_3" finished-at="2024-12-18T11:06:39 PST" duration-ms="3502" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -82,15 +82,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase_3 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.testcases.logintest@419c5f1a]" started-at="2024-12-14T09:17:24 PST" name="teardown" finished-at="2024-12-14T09:17:24 PST" duration-ms="113" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.testcases.logintest@2bbf180e]" started-at="2024-12-18T11:06:39 PST" name="teardown" finished-at="2024-12-18T11:06:42 PST" duration-ms="3175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="launchapplication()[pri:0, instance:com.testng.testcases.logintest@419c5f1a]" started-at="2024-12-14T09:17:24 PST" name="launchapplication" finished-at="2024-12-14T09:17:27 PST" duration-ms="2974" status="PASS">
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:com.testng.testcases.logintest@2bbf180e]" started-at="2024-12-18T11:06:42 PST" name="launchapplication" finished-at="2024-12-18T11:06:45 PST" duration-ms="2507" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchapplication -->
-        <test-method signature="testcase_4b(java.lang.String,java.lang.String)[pri:5, instance:com.testng.testcases.logintest@419c5f1a]" started-at="2024-12-14T09:17:27 PST" name="testcase_4b" finished-at="2024-12-14T09:17:29 PST" duration-ms="1758" status="PASS">
+        <test-method signature="testcase_4b(java.lang.String,java.lang.String)[pri:5, instance:com.testng.testcases.logintest@2bbf180e]" started-at="2024-12-18T11:06:45 PST" name="testcase_4b" finished-at="2024-12-18T11:06:45 PST" duration-ms="552" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -106,49 +106,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase_4b -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.testcases.logintest@419c5f1a]" started-at="2024-12-14T09:17:29 PST" name="teardown" finished-at="2024-12-14T09:17:29 PST" duration-ms="136" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.testcases.logintest@2bbf180e]" started-at="2024-12-18T11:06:45 PST" name="teardown" finished-at="2024-12-18T11:06:49 PST" duration-ms="3131" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.testng.testcases.logintest -->
-      <class name="com.testng.testcases.usermenutest">
-        <test-method is-config="true" signature="launchapplication()[pri:0, instance:com.testng.testcases.usermenutest@3eb7fc54]" started-at="2024-12-14T09:17:29 PST" name="launchapplication" finished-at="2024-12-14T09:17:32 PST" duration-ms="2889" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchapplication -->
-        <test-method signature="testcase_5(java.lang.String,java.lang.String)[pri:0, instance:com.testng.testcases.usermenutest@3eb7fc54]" started-at="2024-12-14T09:17:32 PST" name="testcase_5" finished-at="2024-12-14T09:17:35 PST" duration-ms="3734" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[geethu@company.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[salesForce1!]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testcase_5 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.testcases.usermenutest@3eb7fc54]" started-at="2024-12-14T09:17:35 PST" name="teardown" finished-at="2024-12-14T09:17:36 PST" duration-ms="114" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="launchapplication()[pri:0, instance:com.testng.testcases.usermenutest@3eb7fc54]" started-at="2024-12-14T09:17:36 PST" name="launchapplication" finished-at="2024-12-14T09:17:39 PST" duration-ms="3019" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchapplication -->
-        <test-method signature="testcase_6()[pri:0, instance:com.testng.testcases.usermenutest@3eb7fc54]" started-at="2024-12-14T09:17:39 PST" name="testcase_6" finished-at="2024-12-14T09:17:59 PST" duration-ms="20562" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testcase_6 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.testcases.usermenutest@3eb7fc54]" started-at="2024-12-14T09:17:59 PST" name="teardown" finished-at="2024-12-14T09:17:59 PST" duration-ms="195" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.testng.testcases.usermenutest -->
     </test> <!-- SFDC Login -->
   </suite> <!-- Automation -->
 </testng-results>

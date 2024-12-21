@@ -20,6 +20,10 @@ public class basepage {
 	
 	public void waitforelement(WebElement element) {
 		WebDriverWait wait = new WebDriverWait(driver,5);
-		wait.until(ExpectedConditions.visibilityOf(element));
+		wait.until(ExpectedConditions.elementToBeClickable(element));
+	}
+	
+	public void acceptAlert() {
+		driver.switchTo().alert().accept();
 	}
 }

@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import com.testng.base.basepage;
 
 public class forgotpasswordpage extends basepage{
-	WebDriver driver;
+	
 	
 	public forgotpasswordpage(WebDriver driver) {
 		super(driver);

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="64.317" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="39.815" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="webdriver.chrome.driver" value="/Users/geerthanakannan/.cache/selenium/chromedriver/mac64/131.0.6778.108/chromedriver"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk@17/17.0.13/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/geerthanakannan/eclipse-workspace/salesforcetestngframework/target/surefire/surefirebooter-20241214091654879_3.jar /Users/geerthanakannan/eclipse-workspace/salesforcetestngframework/target/surefire 2024-12-14T09-16-54_551-jvmRun1 surefire-20241214091654879_1tmp surefire_0-20241214091654879_2tmp"/>
+    <property name="sun.java.command" value="/Users/geerthanakannan/eclipse-workspace/salesforcetestngframework/target/surefire/surefirebooter-20241218110608918_3.jar /Users/geerthanakannan/eclipse-workspace/salesforcetestngframework/target/surefire 2024-12-18T11-06-08_779-jvmRun1 surefire-20241218110608918_1tmp surefire_0-20241218110608918_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/geerthanakannan/eclipse-workspace/salesforcetestngframework/target/test-classes:/Users/geerthanakannan/eclipse-workspace/salesforcetestngframework/target/classes:/Users/geerthanakannan/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/geerthanakannan/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/geerthanakannan/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/geerthanakannan/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/geerthanakannan/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/geerthanakannan/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/geerthanakannan/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/geerthanakannan/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/geerthanakannan/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/geerthanakannan/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/geerthanakannan/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/geerthanakannan/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/geerthanakannan/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/geerthanakannan/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/geerthanakannan/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/geerthanakannan/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/geerthanakannan/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/geerthanakannan/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/geerthanakannan/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/geerthanakannan/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/geerthanakannan/.m2/repository/io/github/bonigarcia/webdrivermanager/5.9.2/webdrivermanager-5.9.2.jar:/Users/geerthanakannan/.m2/repository/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar:/Users/geerthanakannan/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/Users/geerthanakannan/.m2/repository/com/github/docker-java/docker-java/3.4.0/docker-java-3.4.0.jar:/Users/geerthanakannan/.m2/repository/com/github/docker-java/docker-java-core/3.4.0/docker-java-core-3.4.0.jar:/Users/geerthanakannan/.m2/repository/com/github/docker-java/docker-java-api/3.4.0/docker-java-api-3.4.0.jar:/Users/geerthanakannan/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/geerthanakannan/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/geerthanakannan/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/geerthanakannan/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/geerthanakannan/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.4.0/docker-java-transport-httpclient5-3.4.0.jar:/Users/geerthanakannan/.m2/repository/com/github/docker-java/docker-java-transport/3.4.0/docker-java-transport-3.4.0.jar:/Users/geerthanakannan/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/geerthanakannan/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/geerthanakannan/.m2/repository/org/apache/commons/commons-lang3/3.15.0/commons-lang3-3.15.0.jar:/Users/geerthanakannan/.m2/repository/org/apache/commons/commons-compress/1.26.2/commons-compress-1.26.2.jar:/Users/geerthanakannan/.m2/repository/commons-codec/commons-codec/1.17.0/commons-codec-1.17.0.jar:/Users/geerthanakannan/.m2/repository/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar:/Users/geerthanakannan/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/geerthanakannan/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/geerthanakannan/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/geerthanakannan/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/geerthanakannan/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/geerthanakannan/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/geerthanakannan/.m2/repository/com/aventstack/extentreports/3.0.0/extentreports-3.0.0.jar:/Users/geerthanakannan/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/geerthanakannan/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/geerthanakannan/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/geerthanakannan/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/geerthanakannan/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/Users/geerthanakannan/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/Users/geerthanakannan/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/geerthanakannan/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/geerthanakannan/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:"/>
@@ -25,12 +25,13 @@
     <property name="java.version.date" value="2024-10-15"/>
     <property name="java.home" value="/usr/local/Cellar/openjdk@17/17.0.13/libexec/openjdk.jdk/Contents/Home"/>
     <property name="file.separator" value="/"/>
+    <property name="style.color" value="always"/>
     <property name="basedir" value="/Users/geerthanakannan/eclipse-workspace/salesforcetestngframework"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/Users/geerthanakannan/eclipse-workspace/salesforcetestngframework/target/surefire/surefirebooter-20241214091654879_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/geerthanakannan/eclipse-workspace/salesforcetestngframework/target/surefire/surefirebooter-20241218110608918_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="17.0.13+0"/>
@@ -58,7 +59,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testcase_4a" classname="com.testng.testcases.logintest" time="1.339">
+  <testcase name="testcase_4a" classname="com.testng.testcases.logintest" time="0.969">
     <system-out><![CDATA[INFO  [main] Log - =====================================================================
 INFO  [main] Log - Starting Test Case: testcase Started
 INFO  [main] Log - =====================================================================
@@ -66,11 +67,11 @@ INFO  [main] Log - =============================================================
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 25768
+Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 27147
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 25768.
-Dec 14, 2024 9:17:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 27147.
+Dec 18, 2024 11:06:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 log4j:WARN Continuable parsing error 2 and column 69
 log4j:WARN Document root element "log4j:configuration", must match DOCTYPE root "null".
@@ -78,7 +79,7 @@ log4j:WARN Continuable parsing error 2 and column 69
 log4j:WARN Document is invalid: no grammar found.
 ]]></system-err>
   </testcase>
-  <testcase name="testcase_1[geethu@company.com](1)" classname="com.testng.testcases.logintest" time="0.929">
+  <testcase name="testcase_1[geethu@company.com](1)" classname="com.testng.testcases.logintest" time="0.637">
     <system-out><![CDATA[INFO  [main] Log - =====================================================================
 INFO  [main] Log - Ending Test Case: Testcase Ended
 INFO  [main] Log - =====================================================================
@@ -86,11 +87,11 @@ INFO  [main] Log - =============================================================
 INFO  [main] Log - Starting Test Case: testcase Started
 INFO  [main] Log - =====================================================================
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 24134
+    <system-err><![CDATA[Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 37405
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 24134.
-Dec 14, 2024 9:17:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 37405.
+Dec 18, 2024 11:06:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 log4j:WARN Continuable parsing error 2 and column 69
 log4j:WARN Document root element "log4j:configuration", must match DOCTYPE root "null".
@@ -98,7 +99,7 @@ log4j:WARN Continuable parsing error 2 and column 69
 log4j:WARN Document is invalid: no grammar found.
 ]]></system-err>
   </testcase>
-  <testcase name="testcase_2[geethu@company.com, salesForce1!](1)" classname="com.testng.testcases.logintest" time="4.266">
+  <testcase name="testcase_2[geethu@company.com, salesForce1!](1)" classname="com.testng.testcases.logintest" time="2.353">
     <system-out><![CDATA[INFO  [main] Log - =====================================================================
 INFO  [main] Log - Ending Test Case: Testcase Ended
 INFO  [main] Log - =====================================================================
@@ -106,11 +107,11 @@ INFO  [main] Log - =============================================================
 INFO  [main] Log - Starting Test Case: testcase Started
 INFO  [main] Log - =====================================================================
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 4147
+    <system-err><![CDATA[Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 10229
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 4147.
-Dec 14, 2024 9:17:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 10229.
+Dec 18, 2024 11:06:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 log4j:WARN Continuable parsing error 2 and column 69
 log4j:WARN Document root element "log4j:configuration", must match DOCTYPE root "null".
@@ -118,7 +119,7 @@ log4j:WARN Continuable parsing error 2 and column 69
 log4j:WARN Document is invalid: no grammar found.
 ]]></system-err>
   </testcase>
-  <testcase name="testcase_3[geethu@company.com, salesForce1!](1)" classname="com.testng.testcases.logintest" time="7.063">
+  <testcase name="testcase_3[geethu@company.com, salesForce1!](1)" classname="com.testng.testcases.logintest" time="3.502">
     <system-out><![CDATA[INFO  [main] Log - =====================================================================
 INFO  [main] Log - Ending Test Case: Testcase Ended
 INFO  [main] Log - =====================================================================
@@ -126,11 +127,11 @@ INFO  [main] Log - =============================================================
 INFO  [main] Log - Starting Test Case: testcase Started
 INFO  [main] Log - =====================================================================
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 43519
+    <system-err><![CDATA[Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 24427
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 43519.
-Dec 14, 2024 9:17:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 24427.
+Dec 18, 2024 11:06:35 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 log4j:WARN Continuable parsing error 2 and column 69
 log4j:WARN Document root element "log4j:configuration", must match DOCTYPE root "null".
@@ -138,7 +139,7 @@ log4j:WARN Continuable parsing error 2 and column 69
 log4j:WARN Document is invalid: no grammar found.
 ]]></system-err>
   </testcase>
-  <testcase name="testcase_4b[123, 1234](1)" classname="com.testng.testcases.logintest" time="1.756">
+  <testcase name="testcase_4b[123, 1234](1)" classname="com.testng.testcases.logintest" time="0.552">
     <system-out><![CDATA[INFO  [main] Log - =====================================================================
 INFO  [main] Log - Ending Test Case: Testcase Ended
 INFO  [main] Log - =====================================================================
@@ -146,38 +147,16 @@ INFO  [main] Log - =============================================================
 INFO  [main] Log - Starting Test Case: testcase Started
 INFO  [main] Log - =====================================================================
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 28224
+    <system-err><![CDATA[Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 31409
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 28224.
-Dec 14, 2024 9:17:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 31409.
+Dec 18, 2024 11:06:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 log4j:WARN Continuable parsing error 2 and column 69
 log4j:WARN Document root element "log4j:configuration", must match DOCTYPE root "null".
 log4j:WARN Continuable parsing error 2 and column 69
 log4j:WARN Document is invalid: no grammar found.
-]]></system-err>
-  </testcase>
-  <testcase name="testcase_5[geethu@company.com, salesForce1!](1)" classname="com.testng.testcases.usermenutest" time="3.733">
-    <system-out><![CDATA[INFO  [main] Log - =====================================================================
-INFO  [main] Log - Ending Test Case: Testcase Ended
-INFO  [main] Log - =====================================================================
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 40386
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 40386.
-Dec 14, 2024 9:17:31 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="testcase_6" classname="com.testng.testcases.usermenutest" time="20.561">
-    <system-err><![CDATA[Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 46242
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 46242.
-Dec 14, 2024 9:17:38 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
 </testsuite>

@@ -1,5 +1,8 @@
 package com.testng.pages;
 
+import java.util.Iterator;
+import java.util.Set;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -12,8 +15,6 @@ public class usermenupage extends basepage{
 		super(driver);
 	}
 
-	WebDriver driver;
-	
 	@FindBy(id="userNavLabel")
 	WebElement userMenuButton;
 	
@@ -25,6 +26,13 @@ public class usermenupage extends basepage{
 	
 	@FindBy(xpath="//a[@title='My Settings']")
 	WebElement MySettings;
+	
+	@FindBy(xpath="//a[text()='Developer Console']")
+	WebElement DeveloperConsole;
+	
+	@FindBy(xpath="//a[@title='Logout']")
+	WebElement Logout;
+	
 	
 	public void clickonuserMenuButton() {
 		waitforelement(userMenuButton);
@@ -40,5 +48,21 @@ public class usermenupage extends basepage{
 	
 	public void clickonMySettings() {
 		MySettings.click();
+	}
+	public void clickonDeveloperConsoleAndClose() throws InterruptedException {
+		DeveloperConsole.click();
+		Thread.sleep(3000);
+		Set<String> allwindowhandles = driver.getWindowHandles();
+		Iterator<String> iterator = allwindowhandles.iterator();
+		String parenthandle = iterator.next();
+		String childhandle =iterator.next();
+		Thread.sleep(3000);
+		driver.switchTo().window(childhandle);
+		driver.close();
+		driver.switchTo().window(parenthandle);
+	}
+	
+	public void clickonLogout() {
+		Logout.click();
 	}
 }

@@ -12,7 +12,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class basetest {
 
-	WebDriver driver;
+	protected WebDriver driver;
 	PropertiesReader propreader = new PropertiesReader();
 	
 	public WebDriver getdriver() throws IOException {
@@ -34,7 +34,8 @@ public class basetest {
 		
 	}
 	
-	public void closedriver() {
+	public void closedriver() throws InterruptedException {
+		Thread.sleep(3000);
 		driver.close();
 		driver = null;
 	}
